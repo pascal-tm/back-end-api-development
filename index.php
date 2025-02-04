@@ -1,33 +1,16 @@
 <?php
+	include_once('pages/app/examples-list.php');
+	include_once('pages/app/exercises-list.php');
 
 	$_common    = [
 		"title" => 'Back end API development: course material'
 	];
 
-	$examples = [
-		[
-			'name' => 'Full syntax',
-			'indexPath' => '/examples/example-full-syntax/example-full-syntax.php'
-		],
-		[
-			'name' => 'Inline syntax',
-			'indexPath' => '/examples/example-inline-syntax/example-inline-syntax.php'
-		]
-	];
+	
 
-	$exercises = [
-		[
-			'name' => 'Full syntax',
-			'indexPath' => '/examples/example-full-syntax/example-full-syntax.php'
-		],
-		[
-			'name' => 'Inline syntax',
-			'indexPath' => '/examples/example-inline-syntax/example-inline-syntax.php'
-		]
-	];
 
 	$page = "outline";
-	$iframeUrl = "outline.php";
+	$iframeUrl = "pages/outline.php";
 	if (isset($_GET['page']))
 	{
 		switch($_GET['page'])
@@ -55,7 +38,7 @@
 		}
 	}
 ?>
-<?php include '_partials/header.php' ?>
+<?php include 'pages/_partials/header.php' ?>
 
 	<div class="container">
 		
@@ -95,4 +78,4 @@
 		</div>
 	</div>
 
-<?php include '_partials/footer.php' ?>
+<?php include 'pages/_partials/footer.php' ?>

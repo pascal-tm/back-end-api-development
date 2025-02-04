@@ -1,12 +1,16 @@
 <?php
 	$examples = [
 		[
-			'name' => 'Full syntax',
-			'indexPath' => '/pages/examples/example-full-syntax/example-full-syntax.php'
+			'name' => 'Script tag code block',
+			'indexPath' => '/pages/examples/script-tag-code-block/script-tag-code-block.php'
 		],
 		[
-			'name' => 'Inline syntax',
-			'indexPath' => '/pages/examples/example-inline-syntax/example-inline-syntax.php'
+			'name' => 'Script tag inline syntax',
+			'indexPath' => '/pages/examples/script-tag-inline-syntax/script-tag-inline-syntax.php'
+		],
+		[
+			'name' => 'Script tag non recommended syntax',
+			'indexPath' => '/pages/examples/script-tag-non-recommended-syntax/script-tag-non-recommended-syntax.php'
 		]
 	];
 ?>

@@ -6,9 +6,6 @@
 		"title" => 'Back end API development: course material'
 	];
 
-	
-
-
 	$page = "outline";
 	$iframeUrl = "pages/outline.php";
 	if (isset($_GET['page']))

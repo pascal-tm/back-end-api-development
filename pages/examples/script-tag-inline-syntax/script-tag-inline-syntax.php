@@ -12,9 +12,15 @@
 
 	<section class="body">
 
-		<h1>Voorbeeld van  inline php</h1>
+		<h1>Inline syntax</h1>
+
+		<h2>Example 1</h2>
 
 		<p><?php echo "Hello World" ?></p>
+
+		<h2>Example 2</h2>
+		
+		<p><?= "Shorthand for echo" ?></p>
 
 	</section>
 

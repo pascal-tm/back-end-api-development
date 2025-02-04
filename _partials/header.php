@@ -11,5 +11,5 @@
 <body>
 
 	<header>
-		<h1><a href="/">Back end API development: course material</a></h1>
+		<h1 class="bold"><a href="/">Back end API development: course material</a></h1>
 	</header>

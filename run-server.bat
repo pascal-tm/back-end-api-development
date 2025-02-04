@@ -1,1 +1,1 @@
-powershell start-process powershell {php -S 127.0.0.101:8000} -verb runas
+powershell start-process powershell {cd %cd%; php -S 127.0.0.101:80} -verb runas

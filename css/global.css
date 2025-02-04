@@ -40,6 +40,18 @@ header h1 a
 	width:20%;
 }
 
+.container .index ul ol
+{
+	margin-top: 12px;
+	padding-left:12px;
+	font-size:11px;
+}
+
+.container .index ul ol li
+{
+	margin-bottom:4px;
+}
+
 .container .content
 {
 	margin-top: 46px;

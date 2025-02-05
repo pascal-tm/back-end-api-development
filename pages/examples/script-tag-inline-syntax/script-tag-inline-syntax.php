@@ -8,21 +8,17 @@
 	<link rel="stylesheet" type="text/css" href="/css/facade.css">
 </head>
 
-<body class="web-backend-inleiding">
+<body>
 
-	<section class="body">
+	<h1>Script inline syntax</h1>
 
-		<h1>Inline syntax</h1>
+	<h2>Example 1</h2>
 
-		<h2>Example 1</h2>
+	<p><?php echo "Hello World" ?></p>
 
-		<p><?php echo "Hello World" ?></p>
-
-		<h2>Example 2</h2>
-		
-		<p><?= "Shorthand for echo" ?></p>
-
-	</section>
+	<h2>Example 2</h2>
+	
+	<p><?= "Shorthand for echo" ?></p>
 
 </body>
 </html>

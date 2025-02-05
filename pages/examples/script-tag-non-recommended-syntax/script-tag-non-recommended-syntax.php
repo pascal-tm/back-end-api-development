@@ -1,8 +1,6 @@
 <?php
 
-/* Deze manier vermijden! */
-
-$varString	=	"Hello World - de manier waarop het niet moet";
+$varString	=	"Hello World";
 
 echo '  <!DOCTYPE html>
 		<html>
@@ -15,11 +13,13 @@ echo '  <!DOCTYPE html>
 				<link rel="stylesheet" type="text/css" href="/css/facade.css">
 			</head>
 			
-			<body class="web-backend-inleiding">
+			<body>
 			
-			<h1>Voorbeeld van Full php</h1>';
+			<h1>HTML in code block - <b>NOT RECOMMENDED</b></h1>';
 
 echo '<p>' . $varString . '</p>';
+
+echo '<p>This is an old school way of printing HTML and is to be avoided. Try to keep PHP and HTML separated as much as possible and use inline syntax</p>';
 
 echo '		</body>
 		</html>';

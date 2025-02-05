@@ -6,6 +6,15 @@
 		"title" => 'Back end API development: course material'
 	];
 
+	$currentUrl = 'http://' . $_SERVER['HTTP_HOST'] .  $_SERVER['REQUEST_URI'];
+
+	$currentUrlWithoutViewCode = $_SERVER['REQUEST_URI'];
+		parse_str($currentUrlWithoutViewCode, $parameters);
+		unset($parameters['viewCode']);
+		$queryString = http_build_query($parameters);
+		$queryString = urldecode(http_build_query($parameters));
+	$currentUrlWithoutViewCode = 'http://' . $_SERVER['HTTP_HOST'] . $queryString;
+
 	$page = "outline";
 	$iframeUrl = "pages/outline.php";
 	if (isset($_GET['page']))
@@ -34,6 +43,16 @@
 				break;
 		}
 	}
+
+	$viewCode = false;
+	$rawFile = '';
+	if (isset( $_GET['viewCode'] ) && $_GET['viewCode'] == true)
+	{
+		$viewCode = true;
+		$rawFile = file_get_contents(dirname(__FILE__) . $iframeUrl, true);
+		$rawFile = htmlspecialchars($rawFile);
+	}
+
 ?>
 <?php include 'pages/_partials/header.php' ?>
 
@@ -70,8 +89,17 @@
 		</div>
 
 		<div class="content">
-			<iframe src="<?= $iframeUrl ?>" onload="this.style.height=(this.contentWindow.document.body.scrollHeight+30)+'px';" <?= ($page == "slides") ? 'style="height:800px"' : "" ?> 
-	></iframe>
+			
+
+			<?php if(!$viewCode): ?>
+				<a href="<?= $currentUrl ?>&viewCode=true" class="toggle-code" title="show code"><i class="bi bi-code-slash"></i></a>
+
+				<iframe src="<?= $iframeUrl ?>" onload="this.style.height=(this.contentWindow.document.body.scrollHeight+40)+'px';" <?= ($page == "slides") ? 'style="height:800px"' : "" ?>> </iframe>
+			<?php else: ?>
+				<a href="<?= $currentUrlWithoutViewCode ?>" class="toggle-code" title="show HTML"><i class="bi bi-filetype-html"></i></a>
+
+				<pre><code class="language-php"><?= $rawFile ?></code></pre>
+			<?php endif ?>
 		</div>
 	</div>
 

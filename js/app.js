@@ -1,7 +1,7 @@
 // Highlight code
 hljs.highlightAll();
 
-// Toggle code
+// Key listener to toggle code using key press
 document.onkeypress = function (e) {
     if(e.key == 'c')
     {

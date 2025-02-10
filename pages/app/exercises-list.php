@@ -1,13 +1,13 @@
 <?php
 	$exercises = [
 		[
-			'name' => 'Full syntax',
-			'indexPath' => '/pages/examples/example-full-syntax/example-full-syntax.php'
+			'name' => 'Syntax debug errors',
+			'indexPath' => '/pages/exercises/syntax/debug-errors.php'
 		],
 		[
-			'name' => 'Inline syntax',
-			'indexPath' => '/pages/examples/example-inline-syntax/example-inline-syntax.php'
-		]
+			'name' => 'String concatenate',
+			'indexPath' => '/pages/exercises/string/concatenation.php'
+		],
 	];
 
 ?>

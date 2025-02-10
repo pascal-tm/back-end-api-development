@@ -17,12 +17,12 @@
 			'indexPath' => '/pages/examples/value-types/int-float-and-string.php'
 		],
 		[
-			'name' => 'Value types string concatenation',
-			'indexPath' => '/pages/examples/value-types/string-concatenation.php'
+			'name' => 'String escaping',
+			'indexPath' => '/pages/examples/string/escaping.php'
 		],
 		[
-			'name' => 'Value types string escaping special characters',
-			'indexPath' => '/pages/examples/value-types/string-escaping-special-characters.php'
-		]
+			'name' => 'String concatenation',
+			'indexPath' => '/pages/examples/string/concatenation.php'
+		],
 	];
 ?>

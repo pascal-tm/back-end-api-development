@@ -4,25 +4,25 @@ Complete Web Backend Course (PHP)
 ## Installation
 
 ### GIT gebruiken om cursus te downloaden
-  - Download en installeer [GIT](http://git-scm.com/). Installeer de CLI-versie.
+  - Download and install [GIT](http://git-scm.com/). Install the CLI version.
+    - You can use any client for Git, even a GUI, as long as you are able to execute the following commands.
 
-  - Maak een map "web-backend" aan 
+  - On your local machine, create a folder called "back-end-api-development" 
 
   - Open je [CLI](http://en.wikipedia.org/wiki/Command-line_interface):
 
-    1. Navigeer naar de map "web-backend" via de CLI:
+    1. Navigate to the "back-end-api-development" folder using your CLI:
     
        ````
        cd \user\dropbox\web-backend
        ````
-    2. Clone de web-backend repository:
+    2. Clone the back-end-api-development repository:
        
        ````
        git clone https://github.com/pascal-tm/back-end-api-development course-material
        ````
        Remark: By adding back-end-api-development-course at the end of this command, Git will create a folder called back-end-api-development-course and will put the files of the repository in that folder.
 
-      
 
 ### Folder structure
 

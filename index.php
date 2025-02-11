@@ -89,12 +89,13 @@
 		</div>
 
 		<div class="content">
-			
 
 			<?php if(!$viewCode): ?>
-				<a href="<?= $currentUrl ?>&viewCode=true" class="toggle-code" title="show code"><i class="bi bi-code-slash"></i></a>
 
-				<iframe src="<?= $iframeUrl ?>" onload="this.style.height=(this.contentWindow.document.body.scrollHeight+40)+'px';" <?= ($page == "slides") ? 'style="height:800px"' : "" ?>> </iframe>
+				<?php if($page == 'examples' || $page == 'exercises'): ?>
+					<a href="<?= $currentUrl ?>&viewCode=true" class="toggle-code" title="show code"><i class="bi bi-code-slash"></i></a>
+				<?php endif ?>
+				<iframe src="<?= $iframeUrl ?>" onload="this.style.height=(this.contentWindow.document.body.scrollHeight+80)+'px';" <?= ($page == "slides") ? 'style="height:800px"' : "" ?>> </iframe>
 			<?php else: ?>
 				<a href="<?= $currentUrlWithoutViewCode ?>" class="toggle-code" title="show HTML"><i class="bi bi-filetype-html"></i></a>
 

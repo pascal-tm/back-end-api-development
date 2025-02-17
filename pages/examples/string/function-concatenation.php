@@ -18,7 +18,7 @@
 	<link rel="stylesheet" type="text/css" href="/css/facade.css">
 </head>
 
-	<h1>String concatenation</h1>
+	<h1>String function: concatenation</h1>
 
 	<p><?= $text1 ?></p>
 	<p><?= $text2 ?></p>

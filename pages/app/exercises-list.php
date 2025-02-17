@@ -8,6 +8,14 @@
 			'name' => 'String concatenate',
 			'indexPath' => '/pages/exercises/string/concatenation.php'
 		],
+		[
+			'name' => 'String functions',
+			'indexPath' => '/pages/exercises/string/functions.php'
+		],
+		[
+			'name' => 'Conditional statements: if',
+			'indexPath' => '/pages/exercises/conditional-statements/if.php'
+		],
 	];
 
 ?>

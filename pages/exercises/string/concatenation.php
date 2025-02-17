@@ -8,7 +8,7 @@
         <link rel="stylesheet" type="text/css" href="/css/facade.css">
     </head>
     <body >
-		<h1>Exercise string concatenation</h1>
+		<h1>String concatenation</h1>
 
 		<ul>
             <li>Create two separate variables that contain your first name and last name</li>

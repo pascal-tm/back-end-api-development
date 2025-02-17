@@ -2,6 +2,9 @@
 	include_once('pages/app/examples-list.php');
 	include_once('pages/app/exercises-list.php');
 
+	$lastUpdatedGitCommit = filemtime('.git/refs/heads/main');
+	$lastUpdatedGitCommitTime = date ("d F Y. H:i:s", $lastUpdatedGitCommit);
+
 	$_common    = [
 		"title" => 'Back end API development: course material'
 	];

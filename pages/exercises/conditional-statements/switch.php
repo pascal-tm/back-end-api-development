@@ -9,23 +9,24 @@
     </head>
     <body>
 
-        <h1>Conditional statements: if</h1> 
+        <h1>Conditional statements: switch</h1> 
 
         <h2>Part 1</h2>
 
         <ul>
             <li>Create an HTML document with a PHP code block</li>
             <li>Create a PHP script that, based on a number (between 1 and 7), prints the corresponding day in lowercase letters (no capital letters!)</li>
-            <li>For example, when <code>$number</code> is equal to 1, the string <code>monday</code> is displayed on the screen</li>
+            <li>Use a switch</li>
         </ul>
 
         <h2 class="extra">Part 2</h2>
 
         <ul>
-            <li>Make a copy of part 1</li>
-            <li>Convert the name of the day (e.g. <code>monday</code>) to uppercase letters (e.g. <code>MONDAY</code>) using a string function.</li>
-            <li>Convert all letters to uppercase, except for the 'a'</li>
-            <li>Convert all letters to uppercase, except for the last 'a'</li>
+            <li>Create an HTML document with a PHP code block</li>
+            <li>Create a PHP script that evaluates a variable <code>month</code> and prints out which season that month is part of.</li>
+            <li>Use a switch</li>
+            <li>The default should mention something like: "This is not a month that I recognize"</li>
+            <li>Suppose the <code>month</code> value comes from user input. Sometimes the user writes the month with a capital, sometimes without. Can you come up with a solution so that both the capitalized version of the month and the non capitalized version can be evaluated?</li>
         </ul>
 
     </body>

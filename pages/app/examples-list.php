@@ -44,5 +44,17 @@
 			'name' => 'Conditional statements: if',
 			'indexPath' => '/pages/examples/conditional-statements/if.php'
 		],
+		[
+			'name' => 'Conditional statements: if else',
+			'indexPath' => '/pages/examples/conditional-statements/if-else.php'
+		],
+		[
+			'name' => 'Conditional statements: if else if',
+			'indexPath' => '/pages/examples/conditional-statements/if-else-if.php'
+		],
+		[
+			'name' => 'Conditional statements: switch',
+			'indexPath' => '/pages/examples/conditional-statements/switch.php'
+		],
 	];
 ?>

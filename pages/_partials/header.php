@@ -14,5 +14,8 @@
 <body>
 
 	<header>
-		<h1 class="bold"><a href="/">Back end API development: course material</a></h1>
+		<h1 class="bold">
+			<a href="/">Back end API development: course material</a>
+			<span class="last-updated">latest commit: <?= $lastUpdatedGitCommitTime?></span>
+		</h1>
 	</header>

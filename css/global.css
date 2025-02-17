@@ -21,6 +21,16 @@ header h1
 }
 
 
+header .last-updated
+{
+    position: absolute;
+    font-size: 11px;
+    right: 0px;
+    top: 0px;
+    padding: 4px;
+}
+
+
 header h1 a
 {
 	text-decoration: none;

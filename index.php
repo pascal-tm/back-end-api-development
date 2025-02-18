@@ -1,4 +1,5 @@
 <?php
+
 	include_once('pages/app/examples-list.php');
 	include_once('pages/app/exercises-list.php');
 

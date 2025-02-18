@@ -1,6 +1,14 @@
 <?php
 	$examples = [
 		[
+			'name' => 'Configuration: phpinfo',
+			'indexPath' => '/pages/examples/configuration/phpinfo.php'
+		],
+		[
+			'name' => 'Configuration: XDebug',
+			'indexPath' => '/pages/examples/configuration/xdebug.php'
+		],
+		[
 			'name' => 'PHP tag code block',
 			'indexPath' => '/pages/examples/php-tag/code-block.php'
 		],
@@ -55,6 +63,26 @@
 		[
 			'name' => 'Conditional statements: switch',
 			'indexPath' => '/pages/examples/conditional-statements/switch.php'
+		],
+		[
+			'name' => 'Arrays: assignment',
+			'indexPath' => '/pages/examples/arrays/assignment.php'
+		],
+		[
+			'name' => 'Arrays: multidimensional',
+			'indexPath' => '/pages/examples/arrays/multidimensional.php'
+		],
+		[
+			'name' => 'Array function: count()',
+			'indexPath' => '/pages/examples/arrays/function-count.php'
+		],
+		[
+			'name' => 'Array function: in_array()',
+			'indexPath' => '/pages/examples/arrays/function-in_array.php'
+		],
+		[
+			'name' => 'Array function: isset()',
+			'indexPath' => '/pages/examples/arrays/function-isset.php'
 		],
 	];
 ?>

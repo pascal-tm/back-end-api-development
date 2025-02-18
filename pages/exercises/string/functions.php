@@ -9,7 +9,7 @@
     </head>
     <body>
         
-        <h1>Exercise string functions</h1>
+        <h1>String functions</h1>
 
         <h2>Part 1</h2>
 

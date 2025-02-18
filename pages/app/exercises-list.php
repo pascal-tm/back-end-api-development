@@ -28,6 +28,14 @@
 			'name' => 'Conditional statements: switch',
 			'indexPath' => '/pages/exercises/conditional-statements/switch.php'
 		],
+		[
+			'name' => 'Arrays: creation',
+			'indexPath' => '/pages/exercises/arrays/creation.php'
+		],
+		[
+			'name' => 'Arrays: functions',
+			'indexPath' => '/pages/exercises/arrays/functions.php'
+		],
 	];
 
 ?>

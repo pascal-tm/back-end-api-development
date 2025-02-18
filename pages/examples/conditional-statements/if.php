@@ -50,6 +50,5 @@
 
 	<p class="<?= ( ( $glass == "empty" ) ? "empty-color" : "" ) ?>">Jeff's glass is <?= $glass ?>, he's <?= $status ?>.</p>
 
-
 </body>
 </html>

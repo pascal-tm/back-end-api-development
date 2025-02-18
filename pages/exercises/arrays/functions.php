@@ -24,7 +24,7 @@
         <ul>
             <li>Continue with part 1 (but make a separate copy for this, do not overwrite the original!)</li>
             <li>Make sure the array is sorted alphabetically (A -> Z)</li>
-            <li>Create an array <code>$zoogdieren</code> and place 3 animals in it, then merge the 2 arrays with animals into the array <code>$dierenLijst</code></li>
+            <li>Create an array <code>$mamals</code> and place 3 animals in it, then merge the 2 arrays with animals into the array <code>$animals</code></li>
         </ul>
 
         <h3 class="extra">Part 3</h3>

@@ -91,5 +91,6 @@ Back End API Development (PHP)
 ## Student repositories
 [Jha Sundaram](https://github.com/exyzee/tmbackend-2025), [Agata Zareba]https://github.com/agata0500/BACK-END-SOLUTIONS
 [Petra Luckova](https://github.com/Petra712/back-end-solutions.git)
+[Martin Velev](https://github.com/MartinVelev11/back-end-api-solutions)
 
 ## Contributors

@@ -95,5 +95,6 @@ Back End API Development (PHP)
 - [Agata Zareba](https://github.com/agata0500/BACK-END-SOLUTIONS)
 - [Petra Luckova](https://github.com/Petra712/back-end-solutions.git)
 - [Dominyka Muraskaite](https://github.com/dominykam/backendsolutions)
+- [Violeta Taneva](https://github.com/VioletaTaneva/Back_End_Solutions.git)
 
 ## Contributors

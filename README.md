@@ -97,5 +97,6 @@ Back End API Development (PHP)
 - [Dominyka Muraskaite](https://github.com/dominykam/backendsolutions)
 - [Violeta Taneva](https://github.com/VioletaTaneva/Back_End_Solutions.git)
 - [Emine Ozcanli] (https://github.com/emin6oz/BackendApi)
+- [John Fork]
 
 ## Contributors

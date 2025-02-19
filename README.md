@@ -3,13 +3,16 @@ Back End API Development (PHP)
 
 ## Installation
 
-### GIT gebruiken om cursus te downloaden
+### Using Git to install the course
+
   - Download and install [GIT](http://git-scm.com/). Install the CLI version.
     - You can use any client for Git, even a GUI, as long as you are able to execute the following commands.
 
   - On your local machine, create a folder called "back-end-api-development" 
 
-  - Open je [CLI](http://en.wikipedia.org/wiki/Command-line_interface):
+  - O
+## Updating to the newest version of the course
+(http://en.wikipedia.org/wiki/Command-line_interface):
 
     1. Navigate to the "back-end-api-development" folder using your CLI:
     
@@ -50,6 +53,27 @@ Back End API Development (PHP)
        ````
        git pull
        ````
+
+## Running a php server in the 
+
+  - make sure PHP is installed on your local machine (will not be explained here)
+
+  - Open your CLI
+      1. Navigate to the folder of the back-end-api-development course material repository
+         ````
+         cd \user\dropbox\back-end-api-development\course-material
+         ````
+      2. Inside that folder, execute the following command
+
+         ````
+         php -S 127.0.0.101:80
+         ````
+
+         Note: It's possible that the access is denied when trying to run your server. You can try with the following IPs: localhost
+
+      3. Open your browser and navigate to 127.0.0.101. You should now have access to the course or your solutions
+
+      - Note that you can run multiple PHP servers, as long as the IP address is different. This will be required at some point if you run a server separate for your course-material and for the solutions.
 
 ## Uploading your own solutions to your personal repository
 

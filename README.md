@@ -89,6 +89,14 @@ Back End API Development (PHP)
 
 
 ## Student repositories
-[Deepanshu Chaudhary] (https://github.com/deepanshuc7/backendAPIclass)
+
+- [Jha Sundaram](https://github.com/exyzee/tmbackend-2025)
+- [Martin Velev](https://github.com/MartinVelev11/back-end-api-solutions)
+- [Agata Zareba](https://github.com/agata0500/BACK-END-SOLUTIONS)
+- [Petra Luckova](https://github.com/Petra712/back-end-solutions.git)
+- [Dominyka Muraskaite](https://github.com/dominykam/backendsolutions)
+- [Violeta Taneva](https://github.com/VioletaTaneva/Back_End_Solutions.git)
+- [Emine Ozcanli](https://github.com/emin6oz/BackendApi)
+- [Deepanshu Chaudhary](https://github.com/deepanshuc7/backendAPIclass)
 
 ## Contributors

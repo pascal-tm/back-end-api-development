@@ -1,6 +1,6 @@
 <?php
 
-	$glass = "full";
+	$glass = "empty";
 
 	if ( $glass == "empty" ) 
 	{

@@ -13,6 +13,10 @@
 			'indexPath' => '/pages/exercises/string/functions.php'
 		],
 		[
+			'name' => 'Operators logic',
+			'indexPath' => '/pages/exercises/operators/logic.php'
+		],
+		[
 			'name' => 'Conditional statements: if',
 			'indexPath' => '/pages/exercises/conditional-statements/if.php'
 		],

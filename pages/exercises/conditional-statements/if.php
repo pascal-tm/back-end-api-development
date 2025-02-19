@@ -24,8 +24,8 @@
         <ul>
             <li>Make a copy of part 1</li>
             <li>Convert the name of the day (e.g. <code>monday</code>) to uppercase letters (e.g. <code>MONDAY</code>) using a string function.</li>
-            <li>Convert all letters to uppercase, except for the 'a'</li>
-            <li>Convert all letters to uppercase, except for the last 'a'</li>
+            <li>Create a variable that contains the name of the day completely in uppercase, except for the 'a' and print this variable in the HTML</li>
+            <li>Create a variable that contains the name of the day completely in uppercase, except for the last 'a'</li>
         </ul>
 
     </body>

@@ -49,6 +49,10 @@
 			'indexPath' => '/pages/examples/operators/comparison.php'
 		],
 		[
+			'name' => 'Operators: logic',
+			'indexPath' => '/pages/examples/operators/logic.php'
+		],
+		[
 			'name' => 'Conditional statements: if',
 			'indexPath' => '/pages/examples/conditional-statements/if.php'
 		],

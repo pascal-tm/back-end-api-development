@@ -96,6 +96,7 @@ Back End API Development (PHP)
 - [Petra Luckova](https://github.com/Petra712/back-end-solutions.git)
 - [Dominyka Muraskaite](https://github.com/dominykam/backendsolutions)
 - [Violeta Taneva](https://github.com/VioletaTaneva/Back_End_Solutions.git)
-- [Emine Ozcanli] (https://github.com/emin6oz/BackendApi)
+- [Emine Ozcanli](https://github.com/emin6oz/BackendApi)
+- [Deepanshu Chaudhary](https://github.com/deepanshuc7/backendAPIclass)
 
 ## Contributors

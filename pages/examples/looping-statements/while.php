@@ -1,9 +1,3 @@
-<?php
-
-	$quote1 = '"I had a dream"';
-	$quote2 = "\"And this is a string with escaped double quotes.\"";
-
-?>
 
 <!DOCTYPE html>
 <html>
@@ -14,13 +8,9 @@
 	<link rel="stylesheet" type="text/css" href="/css/directory.css">
 	<link rel="stylesheet" type="text/css" href="/css/facade.css">
 </head>
-
 	<body>
 
-		<h1>String escaping special characters</h1>
-
-		<p>Using single quotes when string contains double quotes: <?= $quote1 ?></p>
-		<p>Escaping special characters: <?= $quote2 ?></p>
+		<h1>Looping statements while</h1>
 
 	</body>
 </html>

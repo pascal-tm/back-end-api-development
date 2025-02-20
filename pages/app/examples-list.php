@@ -88,5 +88,21 @@
 			'name' => 'Array function: isset()',
 			'indexPath' => '/pages/examples/arrays/function-isset.php'
 		],
+		[
+			'name' => 'Looping statments: while',
+			'indexPath' => '/pages/examples/looping-statements/while.php'
+		],
+		[
+			'name' => 'Looping statments: de while',
+			'indexPath' => '/pages/examples/looping-statements/do-while.php'
+		],
+		[
+			'name' => 'Looping statments: for',
+			'indexPath' => '/pages/examples/looping-statements/for.php'
+		],
+		[
+			'name' => 'Looping statments: foreach',
+			'indexPath' => '/pages/examples/looping-statements/foreach.php'
+		],
 	];
 ?>

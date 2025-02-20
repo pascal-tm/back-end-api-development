@@ -40,6 +40,18 @@
 			'name' => 'Arrays: functions',
 			'indexPath' => '/pages/exercises/arrays/functions.php'
 		],
+		[
+			'name' => 'Looping statements: while',
+			'indexPath' => '/pages/exercises/looping-statements/while.php'
+		],
+		[
+			'name' => 'Looping statements: for',
+			'indexPath' => '/pages/exercises/looping-statements/for.php'
+		],
+		[
+			'name' => 'Looping statements: foreach',
+			'indexPath' => '/pages/exercises/looping-statements/foreach.php'
+		],
 	];
 
 ?>

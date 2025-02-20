@@ -10,15 +10,8 @@
 		'Volkswagen' 
 	);
 	
-	$carKey = 0;
-	
-	/*
-	while( $cars[$carKey] != 'Peugot') {
-		echo $cars[$carKey] . '<br>';
-		++$carKey;
-	}
-	*/
 ?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -30,14 +23,23 @@
 </head>
 	<body>
 
-		<h1>Looping statements: while</h1>
+		<h1>Looping statements: alternative syntax</h1>
+
+		<h2>Regular syntax - <b>NOT RECOMMENDED</b></h2>
 
 		<ul>
-		    
-			<?php while ( $cars[$carKey] != 'Peugot' ): ?>
-				<li><?= $cars[$carKey] ?></li>
-				<?php ++$carKey ?>
-			<?php endwhile ?>
+			<?php 
+				foreach( $cars as $car) {
+					echo '<li>' . $car . '</li>';
+				} 
+			?>
+		</ul>
+
+		<h2>Alternative syntax</h2>
+		<ul>
+			<?php foreach( $cars as $car): ?>
+				<li><?= $car ?></li>
+			<?php endforeach ?>
 		</ul>
 
 	</body>

@@ -93,7 +93,7 @@
 			'indexPath' => '/pages/examples/looping-statements/while.php'
 		],
 		[
-			'name' => 'Looping statments: de while',
+			'name' => 'Looping statments: do while',
 			'indexPath' => '/pages/examples/looping-statements/do-while.php'
 		],
 		[
@@ -103,6 +103,10 @@
 		[
 			'name' => 'Looping statments: foreach',
 			'indexPath' => '/pages/examples/looping-statements/foreach.php'
+		],
+		[
+			'name' => 'Looping statments: alternative syntax',
+			'indexPath' => '/pages/examples/looping-statements/alternative-syntax.php'
 		],
 	];
 ?>

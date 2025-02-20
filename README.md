@@ -10,7 +10,7 @@ Back End API Development (PHP)
 
   - On your local machine, create a folder called "back-end-api-development" 
 
-  Open your [CLI](http://en.wikipedia.org/wiki/Command-line_interface):
+  - Open your [CLI](http://en.wikipedia.org/wiki/Command-line_interface):
 
     1. Navigate to the "back-end-api-development" folder using your CLI:
 
@@ -25,7 +25,7 @@ Back End API Development (PHP)
        ````
        Remark: By adding back-end-api-development-course at the end of this command, Git will create a folder called back-end-api-development-course and will put the files of the repository in that folder.
 
-       
+
 ## Updating to the newest version of the course
 (http://en.wikipedia.org/wiki/Command-line_interface):
 

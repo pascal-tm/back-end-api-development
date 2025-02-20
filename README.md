@@ -25,23 +25,6 @@ Back End API Development (PHP)
        ````
        Remark: By adding back-end-api-development-course at the end of this command, Git will create a folder called back-end-api-development-course and will put the files of the repository in that folder.
 
-
-## Updating to the newest version of the course:
-
-    - Open your [CLI](http://en.wikipedia.org/wiki/Command-line_interface):
-
-    1. Navigate to the "back-end-api-development" folder using your CLI
-    
-       ````
-       cd \user\dropbox\web-backend
-       ````
-
-    2. Execute the following command:
-       
-       ````
-       git pull
-       ````
-
 ### Folder structure
 
   - The folder structure of the back-end-api-development course should look as follows:
@@ -57,7 +40,8 @@ Back End API Development (PHP)
 
 ## Updating to the newest version of the course
 
-  - To update your local version of the course
+  - To update the local version of the course
+
     1. Using your CLI, navigate to the folder where the course is located
     
        ````

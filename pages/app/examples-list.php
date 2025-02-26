@@ -9,35 +9,35 @@
 			'indexPath' => '/pages/examples/configuration/xdebug.php'
 		],
 		[
-			'name' => 'PHP tag code block',
+			'name' => 'PHP tag: code block',
 			'indexPath' => '/pages/examples/php-tag/code-block.php'
 		],
 		[
-			'name' => 'PHP tag inline syntax',
+			'name' => 'PHP tag: inline syntax',
 			'indexPath' => '/pages/examples/php-tag/inline-syntax.php'
 		],
 		[
-			'name' => 'PHP tag non recommended syntax',
+			'name' => 'PHP tag: non recommended syntax',
 			'indexPath' => '/pages/examples/php-tag/non-recommended-syntax.php'
 		],
 		[
-			'name' => 'Value types bool, int, float and string',
+			'name' => 'Value types: bool, int, float and string',
 			'indexPath' => '/pages/examples/value-types/bool-int-float-and-string.php'
 		],
 		[
-			'name' => 'String escaping',
+			'name' => 'String: escaping',
 			'indexPath' => '/pages/examples/string/escaping.php'
 		],
 		[
-			'name' => 'String function concatenation',
+			'name' => 'String: function concatenation',
 			'indexPath' => '/pages/examples/string/function-concatenation.php'
 		],
 		[
-			'name' => 'String function strlen()',
+			'name' => 'String: function strlen()',
 			'indexPath' => '/pages/examples/string/function-strlen.php'
 		],
 		[
-			'name' => 'String function strpos()',
+			'name' => 'String: function strpos()',
 			'indexPath' => '/pages/examples/string/function-strpos.php'
 		],
 		[
@@ -107,6 +107,14 @@
 		[
 			'name' => 'Looping statments: alternative syntax',
 			'indexPath' => '/pages/examples/looping-statements/alternative-syntax.php'
+		],
+		[
+			'name' => 'Functions: declaration',
+			'indexPath' => '/pages/examples/functions/declaration.php'
+		],
+		[
+			'name' => 'Functions: return',
+			'indexPath' => '/pages/examples/functions/return.php'
 		],
 	];
 ?>

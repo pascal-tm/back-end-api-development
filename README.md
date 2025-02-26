@@ -123,5 +123,6 @@ Back End API Development (PHP)
 - [Deepanshu Chaudhary](https://github.com/deepanshuc7/backendAPIclass)
 - [Andrea Komazec](https://github.com/Wawa755/back-end-api-development.git)
 - [Sylvanna Oyewole](https://github.com/Oyewolesyl/Solutions.git)
+- [Sonia Umutesi](https://github.com/r0879042/back-end-soution.git)
 
 ## Contributors

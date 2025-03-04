@@ -52,6 +52,18 @@
 			'name' => 'Looping statements: foreach',
 			'indexPath' => '/pages/exercises/looping-statements/foreach.php'
 		],
+		[
+			'name' => 'Functions: basic',
+			'indexPath' => '/pages/exercises/functions/basic.php'
+		],
+		[
+			'name' => 'Functions: advanced',
+			'indexPath' => '/pages/exercises/functions/advanced.php'
+		],
+		[
+			'name' => 'Functions: recursion',
+			'indexPath' => '/pages/exercises/functions/recursion.php'
+		],
 	];
 
 ?>

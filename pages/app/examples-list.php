@@ -113,8 +113,28 @@
 			'indexPath' => '/pages/examples/functions/declaration.php'
 		],
 		[
+			'name' => 'Functions: scope global',
+			'indexPath' => '/pages/examples/functions/scope-global.php'
+		],
+		[
+			'name' => 'Functions: scope static',
+			'indexPath' => '/pages/examples/functions/scope-static.php'
+		],
+		[
 			'name' => 'Functions: return',
 			'indexPath' => '/pages/examples/functions/return.php'
+		],
+		[
+			'name' => 'Functions: recursion simple',
+			'indexPath' => '/pages/examples/functions/recursion-simple.php'
+		],
+		[
+			'name' => 'Functions: recursion return',
+			'indexPath' => '/pages/examples/functions/recursion-return.php'
+		],
+		[
+			'name' => 'Functions: recursion advanced',
+			'indexPath' => '/pages/examples/functions/recursion-advanced.php'
 		],
 	];
 ?>

@@ -121,8 +121,9 @@ Back End API Development (PHP)
 - [Violeta Taneva](https://github.com/VioletaTaneva/Back_End_Solutions.git)
 - [Emine Ozcanli](https://github.com/emin6oz/BackendApi)
 - [Deepanshu Chaudhary](https://github.com/deepanshuc7/backendAPIclass)
-- [Andrea Komazec](https://github.com/Wawa755/back-end-api-development.git)
+- [Andrea Komazec](https://github.com/Wawa755/Back-end-solution.git)
 - [Sylvanna Oyewole](https://github.com/Oyewolesyl/Solutions.git)
 - [Sonia Umutesi](https://github.com/r0879042/back-end-soution.git)
--[Zornitsa Bakardzhieva](https://github.com/ZoriBak/back-end-solutions.git)
+- [Zornitsa Bakardzhieva](https://github.com/ZoriBak/back-end-solutions.git)
+
 ## Contributors

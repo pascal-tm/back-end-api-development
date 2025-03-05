@@ -148,5 +148,9 @@
 			'name' => 'Superglobals: validation',
 			'indexPath' => '/pages/examples/superglobals/validation.php'
 		],
+		[
+			'name' => 'Time: functions',
+			'indexPath' => '/pages/examples/time/functions.php'
+		],
 	];
 ?>

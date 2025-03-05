@@ -72,6 +72,14 @@
 			'name' => 'Superglobals: post',
 			'indexPath' => '/pages/exercises/superglobals/post.php'
 		],
+		[
+			'name' => 'Revision: exercise 01',
+			'indexPath' => '/pages/exercises/revision/exercise-01.php'
+		],
+		[
+			'name' => 'Time: functions',
+			'indexPath' => '/pages/exercises/time/functions.php'
+		],
 	];
 
 ?>

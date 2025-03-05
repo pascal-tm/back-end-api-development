@@ -64,6 +64,14 @@
 			'name' => 'Functions: recursion',
 			'indexPath' => '/pages/exercises/functions/recursion.php'
 		],
+		[
+			'name' => 'Superglobals: get',
+			'indexPath' => '/pages/exercises/superglobals/get.php'
+		],
+		[
+			'name' => 'Superglobals: post',
+			'indexPath' => '/pages/exercises/superglobals/post.php'
+		],
 	];
 
 ?>

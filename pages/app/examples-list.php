@@ -136,5 +136,17 @@
 			'name' => 'Functions: recursion advanced',
 			'indexPath' => '/pages/examples/functions/recursion-advanced.php'
 		],
+		[
+			'name' => 'Superglobals: get',
+			'indexPath' => '/pages/examples/superglobals/get.php'
+		],
+		[
+			'name' => 'Superglobals: post',
+			'indexPath' => '/pages/examples/superglobals/post.php'
+		],
+		[
+			'name' => 'Superglobals: validation',
+			'indexPath' => '/pages/examples/superglobals/validation.php'
+		],
 	];
 ?>

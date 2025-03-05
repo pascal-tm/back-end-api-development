@@ -1,6 +1,6 @@
 <?php
 
-   	// First way
+	// First way
 	$animals =  array(
 		'cat', 
 		'dog', 
@@ -16,8 +16,10 @@
    $animals[]   =  'ladybug';
    $animals[]   =  'cat';
 
+   var_dump($animals);
+
    $vehicles = array(
-   		'landVehicles' =>  array(
+		'landVehicles' =>  array(
    				'Vespa', 'bicycle'
    			),
 		'waterVehicles' => array(
@@ -49,6 +51,7 @@
    var_dump($oddNumbers);
 
    $numbersReversed = array_reverse($numbers);
+   var_dump($numbersReversed);
    $sameKeyNumbersAdded = array();
 
    foreach ($numbers as $key => $number)

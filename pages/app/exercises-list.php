@@ -80,6 +80,14 @@
 			'name' => 'Time: functions',
 			'indexPath' => '/pages/exercises/time/functions.php'
 		],
+		[
+			'name' => 'Cookie: basic',
+			'indexPath' => '/pages/exercises/cookie/basic.php'
+		],
+		[
+			'name' => 'Session: basic',
+			'indexPath' => '/pages/exercises/session/basic.php'
+		],
 	];
 
 ?>

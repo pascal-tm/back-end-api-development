@@ -7,7 +7,7 @@
         <link rel="stylesheet" type="text/css" href="/css/directory.css">
         <link rel="stylesheet" type="text/css" href="/css/facade.css">
     </head>
-    <body >
+    <body>
         
         <h1>Superglobals: $_POST</h1>
 

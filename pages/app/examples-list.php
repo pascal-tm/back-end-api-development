@@ -164,5 +164,9 @@
 			'name' => 'Session: advanced',
 			'indexPath' => '/pages/examples/session/advanced.php'
 		],
+		[
+			'name' => 'Databases: connection',
+			'indexPath' => '/pages/examples/databases/connection.php'
+		],
 	];
 ?>

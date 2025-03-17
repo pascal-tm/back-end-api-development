@@ -1,7 +1,6 @@
 <?php
 
 	// Part 1
-
 	$textOriginal = file_get_contents('text-file.txt');
 	$text = file_get_contents('text-file.txt');
 

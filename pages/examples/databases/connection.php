@@ -2,20 +2,20 @@
 
     try {
         
-        $result = null;
+        // Part 1: establishing a connection
+        $db = createSqliteDbConnection('chinook.sqlite');
 
-        $db = createSqliteDbConnection('example-database.sqlite');
+        // Part 2: Query to execute        
+        // Select all artists
+        $genresQuery = "SELECT * FROM genres";
 
-        $allUsers = fetchResultForQuery(
+        // Part 3: execute query and return result as an array        
+        $genres = fetchResultForQuery(
             $db, 
-            "SELECT * FROM users"
+            $genresQuery
         );
 
-        $firstUser = fetchResultForQuery(
-            $db, 
-            "SELECT name, email FROM users LIMIT 1"
-        );
-        
+        // Part 4: when you're done, close the DB connection
         closeSqliteDbConnection($db);
     } 
     catch (PDOException $e) 
@@ -40,6 +40,7 @@
     {
         $result = array();
 
+        // Preparing means sanitizing them, checking for errors/malicious code before execution
         $preparedStatement = $db->prepare($query);
 
         // Execute the query
@@ -71,32 +72,25 @@
 </head>
     <body>
 
-        <h1>Databases: connection and retrieval</h1>
+        <h1>Databases: connection</h1>
 
-        <h2>Getting all users from a users database table</h2>
+        <h2>Getting all genres from the database</h2>
+
+        <p><b>query:</b> <code><?= $genresQuery ?></code></p>
 
         <table>
             <tr>
-                <th>id</th>
-                <th>name</th>
-                <th>email</th>
+                <th>GenreId</th>
+                <th>Name</th>
             </tr>
-            <?php foreach($allUsers as $user): ?>
+            <?php foreach($genres as $genre): ?>
             <tr>
-                <td><?= $user['id'] ?></td>
-                <td><?= $user['name'] ?></td>
-                <td><?= $user['email'] ?></td>
+                <td><?= $genre['GenreId'] ?></td>
+                <td><?= $genre['Name'] ?></td>
             </tr>
 
             <?php endforeach ?>
         </table>
-        
-        <p>dump of the <code>$allUsers</code> array:</p>
-        <pre><?php print_r($allUsers) ?></pre>
-        
-        <h2>Getting the first user from a users database table</h2>
-
-        <p>name: <?= $firstUser[0]['name'] ?>, email: <?= $firstUser[0]['email'] ?></p>
 
     </body>
 </html>

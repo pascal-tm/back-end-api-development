@@ -168,5 +168,9 @@
 			'name' => 'Databases: connection',
 			'indexPath' => '/pages/examples/databases/connection.php'
 		],
+		[
+			'name' => 'Databases: queries',
+			'indexPath' => '/pages/examples/databases/queries.php'
+		],
 	];
 ?>

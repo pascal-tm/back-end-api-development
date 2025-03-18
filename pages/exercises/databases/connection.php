@@ -37,7 +37,7 @@
             <li>
                 It should look something like this:
                 <div class="facade-minimal" data-url="http://www.app.local/index.php">
-                    <h1>Custumor table colums:</h1>
+                    <h1>Customer table colums:</h1>
                     <ul>
                         <li>CustomerId</li>
                         <li>FirstName</li>
@@ -60,7 +60,6 @@
         <h2>Part 3</h2>
         <ul>
             <li>Create a text input that acts as a search bar in which you can search</li>
-            <li></li>
             <li>
                 It should look something like this:
                 <div class="facade-minimal" data-url="http://www.app.local/index.php?table=artists">

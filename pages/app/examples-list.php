@@ -172,5 +172,17 @@
 			'name' => 'Databases: queries',
 			'indexPath' => '/pages/examples/databases/queries.php'
 		],
+		[
+			'name' => 'Databases: delete',
+			'indexPath' => '/pages/examples/databases/delete.php'
+		],
+		[
+			'name' => 'Databases: update',
+			'indexPath' => '/pages/examples/databases/update.php'
+		],
+		[
+			'name' => 'Databases: add',
+			'indexPath' => '/pages/examples/databases/add.php'
+		],
 	];
 ?>

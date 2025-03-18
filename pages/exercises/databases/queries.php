@@ -49,7 +49,7 @@
 		<h1>Databases: queries</h1>
 
 		<ul>
-            <li>You wake up after a deep sleep. But something doesn't seem right. You can't feel your body. Strange... You look around, but the only thing you can see are 0s and 1s. Oh no! You woke op as an AI chatbot trained on the chinook.sqlite database!</li>
+            <li>You wake up after a deep sleep. But something doesn't seem right. You can't feel your body. Strange... You look around, but the only thing you can see are 0s and 1s. Oh no! You woke up as an AI chatbot trained on the chinook.sqlite database!</li>
 
             <li>Wait, some one is talking to you...
 
@@ -87,7 +87,7 @@
 			            </div>
 
 			            <div class="message bot">
-			              Ok, pff... let me have a look. I see <b><code>{{ count how many tracks have the word 'you' in it's title }}</code></b> songs containing the word <i>you</i>. Do you want me to repeat the to you?
+			              Ok, pff... let me have a look. I see <b><code>{{ count how many tracks have the word 'you' in it's title }}</code></b> songs containing the word <i>you</i>. Do you want me to repeat them to you?
 			              <div class="timestamp">10:08 AM</div>
 			            </div>
 
@@ -177,7 +177,7 @@
 
 
 			            <div class="message bot">
-							Oops, sorry, I felt a bit sick. I had to go to the garbage collection. I'm back now, let me have a look: <ul>
+							Oops, sorry, I felt a bit sick. I had to go to the garbage collector. I'm back now, let me have a look: <ul>
 							    <li><code><b>{{ Fetch the name of the playlists that contain the song 'I put a spell on you' and put them in an &lt;ul&gt; }}</b></code></li>
 							</ul>
 							<div class="timestamp">10:47 AM</div>
@@ -199,7 +199,7 @@
 
 
 			            <div class="message user">
-		            		Sweet, exactly what I needed. Alright, got to go. Take care man, make sure you drink enough water, alright? Peace.
+		            		Sweet, exactly what I needed. Alright, got to go. Take care man and make sure you drink enough water. Maybe you shouldn't drink so much next time. Just some friendly advice. Peace.
 		              		<div class="timestamp">10:47 AM</div>
 			            </div>
 

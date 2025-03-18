@@ -97,15 +97,15 @@
 			'indexPath' => '/pages/exercises/databases/queries.php'
 		],
 		[
-			'name' => 'Databases: delete',
+			'name' => 'Databases: delete (TODO)',
 			'indexPath' => '/pages/exercises/databases/delete.php'
 		],
 		[
-			'name' => 'Databases: update',
+			'name' => 'Databases: update (TODO)',
 			'indexPath' => '/pages/exercises/databases/update.php'
 		],
 		[
-			'name' => 'Databases: add',
+			'name' => 'Databases: add (TODO)',
 			'indexPath' => '/pages/exercises/databases/add.php'
 		],
 	];

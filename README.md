@@ -126,5 +126,5 @@ Back End API Development (PHP)
 - [Sonia Umutesi](https://github.com/r0879042/back-end-soution.git)
 - [Zornitsa Bakardzhieva](https://github.com/ZoriBak/back-end-solutions.git)
 - [Olga Ingelaere](https://github.com/OlyaIngelaere/back-end-api-development-solutions.git)
-
+- [Katarina Bajnokova](https://github.com/KatarinaBajnokova/back-end-solutions.git)
 ## Contributors

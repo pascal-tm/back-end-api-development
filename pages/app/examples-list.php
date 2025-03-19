@@ -149,22 +149,6 @@
 			'indexPath' => '/pages/examples/superglobals/validation.php'
 		],
 		[
-			'name' => 'Time: functions',
-			'indexPath' => '/pages/examples/time/functions.php'
-		],
-		[
-			'name' => 'Cookie: initializing',
-			'indexPath' => '/pages/examples/cookie/initializing.php'
-		],
-		[
-			'name' => 'Session: initializing',
-			'indexPath' => '/pages/examples/session/initializing.php'
-		],
-		[
-			'name' => 'Session: advanced',
-			'indexPath' => '/pages/examples/session/advanced.php'
-		],
-		[
 			'name' => 'Databases: connection',
 			'indexPath' => '/pages/examples/databases/connection.php'
 		],
@@ -184,5 +168,21 @@
 			'name' => 'Databases: add',
 			'indexPath' => '/pages/examples/databases/add.php'
 		],
+		[
+			'name' => 'Time: functions',
+			'indexPath' => '/pages/examples/time/functions.php'
+		],
+		[
+			'name' => 'Cookie: initializing',
+			'indexPath' => '/pages/examples/cookie/initializing.php'
+		],
+		[
+			'name' => 'Session: initializing',
+			'indexPath' => '/pages/examples/session/initializing.php'
+		],
+		[
+			'name' => 'Session: advanced',
+			'indexPath' => '/pages/examples/session/advanced.php'
+		]
 	];
 ?>

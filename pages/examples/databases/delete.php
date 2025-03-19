@@ -6,16 +6,16 @@
        
         $employeesColumns = fetchResultForQuery(
             $db, 
-            'PRAGMA table_info(employees)'
+            'PRAGMA table_info(invoices)'
         );
 
         // Check if an employee need to be deleted
         if (isset($_GET['id']))
         {
-            $employeesDeleteQuery = "DELETE FROM employees WHERE EmployeeId = :employeeId";
+            $employeesDeleteQuery = "DELETE FROM invoices WHERE InvoiceId = :invoiceId";
 
             $params = [
-                ':employeeId' => (int) $_GET['id']
+                ':invoiceId' => (int) $_GET['id']
             ];
 
             fetchResultForQuery(
@@ -26,11 +26,13 @@
         }
 
         // Get all employees
-        $employeesQuery = "SELECT * FROM employees";
+        $employeesQuery = "SELECT * FROM invoices";
         $employees = fetchResultForQuery(
             $db, 
             $employeesQuery
         );
+
+        $employees = array_slice($employees, 0,5);
 
 
         closeSqliteDbConnection($db);
@@ -104,17 +106,21 @@
 
         <table>
             <tr>
-                <td>action</td>
+                
                 <?php foreach($employeesColumns as $column): ?>
                     <td><?= $column['name'] ?></td>
                 <?php endforeach ?>
+                <td>action</td>
             </tr>
             <?php foreach($employees as $employee): ?>
             <tr>
-                <td><a href="delete.php?id=<?= $employee['EmployeeId'] ?>">delete</a></td>
+               
                 <?php foreach($employee as $employeeData): ?>
                     <td><?= $employeeData ?></td>
                 <?php endforeach ?>
+                
+                <td><button>x</button></td>
+                 
             </tr>
             <?php endforeach ?>
         </table>

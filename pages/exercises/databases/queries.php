@@ -49,7 +49,7 @@
 		<h1>Databases: queries</h1>
 
 		<ul>
-            <li>You wake up after a deep sleep. But something doesn't seem right. You can't feel your body. Strange... You look around, but the only thing you can see are 0s and 1s. Oh no! You woke up as an AI chatbot trained on the chinook.sqlite database!</li>
+            <li>You wake up after a deep sleep. But something doesn't seem right. You can't feel your body. Strange... You look around, but the only thing you can see are 0s and 1s. Oh no! You woke up as an AI chatbot trained on the spotify.sqlite database!</li>
 
             <li>Wait, some one is talking to you...
 

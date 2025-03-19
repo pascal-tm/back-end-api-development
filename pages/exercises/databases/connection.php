@@ -12,7 +12,12 @@
 
         <h2>Part 1</h2>
 		<ul>
-            <li>Connect to the chinook.sqlite database (you can copy it to your solution folder)</li>
+            <li>Connect to the spotify.sqlite database (you can copy it to your solution folder)
+                <ul>
+                    <li>You can find it in this repository in the folder pages/exercises/databases/</li>
+                    <li>Copy it to your solutions folder</li>
+                </ul>
+            </li>
             <li>Retrieve all the artists</li>
             <li class="extra">Make sure the artists are ordered from A-Z</li>
             <li>

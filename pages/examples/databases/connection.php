@@ -3,7 +3,7 @@
     try {
         
         // Part 1: establishing a connection
-        $db = createSqliteDbConnection('chinook.sqlite');
+        $db = createSqliteDbConnection('spotify.sqlite');
 
         // Part 2: Query to execute        
         // Select all artists

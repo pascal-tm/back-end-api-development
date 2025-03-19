@@ -2,7 +2,7 @@
 
     try {
         
-        $db = createSqliteDbConnection('chinook.sqlite');
+        $db = createSqliteDbConnection('spotify.sqlite');
        
         $employeesColumns = fetchResultForQuery(
             $db, 

@@ -11,7 +11,21 @@
 		<h1>Databases: add (TODO)</h1>
 
 		<ul>
-            <li></li>
+            <li>
+                
+                <div class="facade-minimal" data-url="http://www.app.local/index.php">
+                    <table>
+                        <tr>
+                            <th>Artist name</th>
+                        </tr>
+                        <tr><td>Aaron Copland & London Symphony Orchestra</td></tr>
+                        <tr><td>AC/DC</td></tr>
+                        <tr><td>...</td></tr>
+                        <tr><td>Zeca Pagodinho</td></tr>
+                    </table> 
+                </div>
+
+            </li>
         </ul>
     </body>
 </html>

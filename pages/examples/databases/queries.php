@@ -4,7 +4,7 @@
         
         $result = null;
 
-        $db = createSqliteDbConnection('chinook.sqlite');
+        $db = createSqliteDbConnection('spotify.sqlite');
 
         // Select all artists
         // To keep the example short, only first 10 are used
@@ -105,7 +105,6 @@
         <h2>Getting all artists from the database (only first 10 shown...)</h2>
 
         <p><b>query:</b> <code><?= $artistsQuery ?></code></p>
-
 
         <table>
             <tr>

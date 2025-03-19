@@ -2,7 +2,7 @@
 
     try {
         
-        $db = createSqliteDbConnection('chinook.sqlite');
+        $db = createSqliteDbConnection('spotify.sqlite');
        
         $employeesColumns = fetchResultForQuery(
             $db, 
@@ -63,7 +63,7 @@
         if ($params)
         {
             foreach ($params as $placeholder => $value) {
-                $preparedStatement->bindParam($placeholder, $value);
+                $preparedStatement->bindValue($placeholder, $value);
             }
         }
 

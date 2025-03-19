@@ -2,7 +2,7 @@
 
     try {
         
-        $db = createSqliteDbConnection('chinook.sqlite');
+        $db = createSqliteDbConnection('spotify.sqlite');
        
         $playlistColums = fetchResultForQuery(
             $db, 

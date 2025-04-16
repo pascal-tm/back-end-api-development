@@ -73,7 +73,6 @@
                 </div>
             </li>
             <li>When changing some data and clicking on <i>update</i>, the data is updated for that user</li>
-
         </ul>
     </body>
 </html>

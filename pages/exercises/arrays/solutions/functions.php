@@ -1,6 +1,6 @@
 <?php
 
-   	// Part 1
+   	// first way
 	$animals =  array(
 		'cat ', 
 		'dog', 
@@ -9,39 +9,13 @@
 		'frog'
 	);
 
-	$animalCount = count($animals);
+   // Second way
+   $animals[]   =  'whale';
+   $animals[]   =  'tiger';
+   $animals[]   =  'heron';
+   $animals[]   =  'ladybug';
 
-   	var_dump($animalCount);
+   var_dump($animals);
 
-   	// Part 2
-	$animals2 =  array(
-		'cat ', 
-		'dog', 
-		'sheep', 
-		'snake',
-		'frog'
-	);
-
-	$alphabeticalAnimals = natcasesort($animals2);
-
-   	$mamals = array(
-   		'dolphin', 
-   		'sheep', 
-   		'tapir'
-   	);
-
-   	$mergedAnimals = array_merge($animals2, $mamals);
-
-   	var_dump($mergedAnimals);
-
-   	// Part 3
-   	$values = array(8, 7, 8, 7, 3, 2, 1, 2, 4);
-
-   	$duplicatesRemoved = array_unique($values);
-
-   	var_dump($duplicatesRemoved);
-
-   	rsort($duplicatesRemoved);
-
-   	var_dump($duplicatesRemoved);
+    
 ?>

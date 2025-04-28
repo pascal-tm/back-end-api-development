@@ -128,4 +128,5 @@ Back End API Development (PHP)
 - [Olga Ingelaere](https://github.com/OlyaIngelaere/back-end-api-development-solutions.git)
 - [Katarina Bajnokova](https://github.com/KatarinaBajnokova/back-end-solutions.git)
 - [Filip Stefanovski](https://github.com/FilipStefanovski1/back-end-solutions.git)
+- [Luis Romero](https://github.com/lromerog/back-end-api-development-solutions)
 ## Contributors
